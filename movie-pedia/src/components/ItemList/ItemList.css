@@ -1,0 +1,72 @@
+.list {
+    padding-left: 15px;
+    max-height: 0px;
+    background: inherit;
+    width: 100%;
+    display: flex;
+    transition: max-height 0.2s ease-out;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow-y: auto;
+    
+  }
+  
+.list.open {
+    max-height: 500px;
+    margin-bottom: 12px;
+    transition: max-height 0.5s ease-in;
+}
+.item-con {
+    margin: 7px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.item-con>p {
+    color: skyblue;
+    font-size: 26px;
+    padding: 0px 15px;
+}
+
+.item-list {
+
+    width: 100%;
+    display: flex;
+    border: rgb(214, 214, 214) solid 2px;
+    flex-direction: column;
+    background-color: black;
+    overflow-x: hidden;
+    /* align-items: center; */
+    margin: 15px 0;
+    /* text-align: centers; */
+}
+
+ .item-list>p{
+   font-size: 20px;
+   padding-left: 8px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   font-size: 30px;
+   color: skyblue;
+   cursor: pointer;
+ 
+}
+.item-list>p:hover{
+    background: #333;
+}
+.item {
+    margin: 8px 0;
+}
+/* .list>p{
+    margin-left: 45px;
+    color: teal;
+    font-size: 26px;
+} */
+/*
+.item-list>p:hover{
+
+    width: 100%;
+    height: 100%;
+    background: #eee;
+} */

@@ -1,0 +1,64 @@
+
+.film-page{
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    /* background-color: rgb(4, 4, 66);  */
+
+}
+
+.film-header{
+    margin: auto;
+    /* position: absolute; */
+    /* top: 0; */
+    /* margin: 0; */
+    width: 80%;
+    height: 300px;
+    background-color: rgba(5, 0, 26, 0.582);
+    border-radius: 0 0 10px 10px;
+    /* box-shadow: 5px 3px 4px 5px #444; */
+}
+
+.film-header>div{
+    
+    display: flex;
+    padding-top: 70px;
+    margin-left: 480px;
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+}
+.film-header>p{
+    margin-left: 270px;
+    font-size: 20px;
+    color: rgb(231, 183, 213);
+}
+.film-header .rating{
+    margin-left: 60px;
+    color: rgb(231, 183, 213);
+}
+
+.film-picture{
+    position: absolute;
+    z-index: 2;
+    top: 18%;
+    left: 11%;
+    height: 46%;
+    width: 34%;
+    overflow: hidden;
+}
+
+.film-page main{
+    margin: auto;
+    margin-top: 70px;
+    text-align: left;
+    width: 80%;
+    min-height: 100vh;
+    /* margin-left: 400px; */
+}
+.film-page main p{
+    font-size: larger;
+    color: white;
+}
+.film-page iframe{
+    width: 100%;
+}
